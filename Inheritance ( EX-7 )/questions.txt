@@ -1,0 +1,11 @@
+questions 
+
+7inheritance and polymorphism
+8understanding objects handling
+
+1. write a java program to create 3 student objects and print the hash code for each object. print the hash code and observe if they are same or different
+2. write a java program demonstrating object reference by assigning one object to another reference ; (s2=s1) print the hash code of both the objects and explain the output.
+3. create an object copy using a copy constructor and print the  hash code of original  and compare them using equality operator 
+4. compare two objects using logical equality comparator and using equals (method operator) and print the result. Also explain the difference btw object equality and object identity
+
+copy constructor- constructor which takes argument as an object - it is a constructor that creates a new object by copying the data from another object of the same class
