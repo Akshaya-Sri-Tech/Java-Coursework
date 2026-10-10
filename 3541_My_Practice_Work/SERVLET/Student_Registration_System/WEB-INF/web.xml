@@ -1,0 +1,10 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="5.0">
+    <servlet>
+        <servlet-name>Student Registration System</servlet-name>
+         <servlet-class>Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Student Registration System</servlet-name>
+         <url-pattern>/SRS-page</url-pattern>
+    </servlet-mapping>
+</web-app>
