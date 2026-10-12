@@ -22,15 +22,12 @@ public class EmployeeSalary {
                 String name = tokens[1];
                 double basicSalary = Double.parseDouble(tokens[2]);
 
-                // Calculate allowances (Assuming HRA = 20% and DA = 50% of Basic)
                 double hra = basicSalary * 0.20;
                 double da = basicSalary * 0.50;
                 double grossSalary = basicSalary + hra + da;
 
-                // Write the full processed data to the new report file
                 resultWriter.write(id + "," + name + "," + basicSalary + "," + hra + "," + da + "," + grossSalary + "\n");
 
-                // Check if this employee has the highest gross salary
                 if (grossSalary > highestGrossSalary) {
                     highestGrossSalary = grossSalary;
                     highestEarnerName = name;
