@@ -3,3 +3,5 @@
 
 # JDBC dependencies
 **/lib/*.jar
+
+*.zip

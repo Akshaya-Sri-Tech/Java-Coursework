@@ -52,7 +52,7 @@ class Consumer implements Runnable {
     }
 }
 
-class PetrolStationDemo {
+class Thread4 {
     public static void main(String[] args) {
         PetrolStation p = new PetrolStation();
         Thread producer = new Thread(new Producer(p));

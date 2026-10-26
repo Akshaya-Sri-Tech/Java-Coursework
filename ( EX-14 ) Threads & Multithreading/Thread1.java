@@ -1,5 +1,3 @@
-
-
 class NewThread implements Runnable {
     Thread t;
     int i;
@@ -49,3 +47,8 @@ public class Thread1 {
         }
     }
 }
+
+/* The join() method in Java is used to pause the execution of the current thread
+ (in this case, the main thread)
+ until the thread it's called on (obj1.t, which is Thread A) completely dies
+ (finishes executing its run() method). */
